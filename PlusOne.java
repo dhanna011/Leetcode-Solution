@@ -1,4 +1,4 @@
-class Solution {
+class PlusOne {
     public int[] plusOne(int[] digits) {
       int idx=digits.length-1;
       while(idx>=0){
