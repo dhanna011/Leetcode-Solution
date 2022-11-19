@@ -1,4 +1,5 @@
-class Solution {
+// Leetcode - 71. Simplify Path
+class SimplifyPath {
     public String simplifyPath(String path) {
         Stack<String> stack=new Stack<>();
         String[] vals= path.split("/");
